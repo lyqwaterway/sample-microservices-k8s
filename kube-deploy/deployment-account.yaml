@@ -17,8 +17,5 @@ spec:
         ports:
         - containerPort: 2222
           protocol: TCP
-      - name: mongo
-        image: library/mongo
-        ports:
-        - containerPort: 27017
-          protocol: TCP
+      imagePullSecrets:
+      - name: regcred
