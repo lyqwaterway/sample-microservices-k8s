@@ -1,4 +1,4 @@
-package pl.piomin.microservices.account.api;
+package org.wangqing.microservices.account.api;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import pl.piomin.microservices.account.model.Account;
+import org.wangqing.microservices.account.model.Account;
 
 @RestController
 public class Api {

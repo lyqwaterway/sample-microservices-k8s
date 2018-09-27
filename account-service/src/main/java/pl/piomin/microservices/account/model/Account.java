@@ -1,4 +1,4 @@
-package pl.piomin.microservices.account.model;
+package org.wangqing.microservices.account.model;
 
 public class Account {
 
