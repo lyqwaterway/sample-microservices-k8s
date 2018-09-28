@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>org.wangqing</groupId>
 		<artifactId>sample-spring-microservices</artifactId>
-		<version>1.0-SNAPSHOT</version>
+		<version>1.0</version>
 	</parent>
 	<artifactId>customer-service</artifactId>
 
