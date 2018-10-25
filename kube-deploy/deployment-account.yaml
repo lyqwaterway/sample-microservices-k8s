@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: account-service
-        image: 127.0.0.1:30400/sample-spring-microservices/account-service:latest
+        image: docker-release-local2.demo.jfrogchina.com/sample-spring-microservices/account-service:latest
         ports:
         - containerPort: 2222
           protocol: TCP
