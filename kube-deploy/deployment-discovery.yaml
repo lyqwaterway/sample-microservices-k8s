@@ -18,4 +18,4 @@ spec:
         - containerPort: 8761
           protocol: TCP
       imagePullSecrets:
-      - name: regcred
+      - name: regcred 
