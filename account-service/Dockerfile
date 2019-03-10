@@ -1,4 +1,4 @@
-FROM openjdk:8-alpine
+FROM openjdk
 MAINTAINER Wang Qing <wangq@jfrog.com>
 ADD target/account-service.jar account-service.jar
 ENTRYPOINT ["java", "-jar", "/account-service.jar"]
